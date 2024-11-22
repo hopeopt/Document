@@ -14,3 +14,6 @@ a = var(b);
 a = cov(b);
 #奇异值分解(V是特征向量矩阵，D是特征值矩阵，主对角线就是特征值);
 [V,D] = eig(A);
+#quiver函数绘制向量
+quiver(X,Y,C,D);
+quiver3(X,Y,Z,C,D,E);三维的
